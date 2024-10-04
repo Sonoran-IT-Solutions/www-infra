@@ -1,0 +1,22 @@
+{
+  "name": "website-infra",
+  "scripts": {
+    "lint": "eslint **/*.ts",
+    "prepare": "husky && husky install"
+  },
+  "devDependencies": {
+    "@types/node": "^18",
+    "lint-staged": "^15.2.10",
+    "prettier": "3.3.3",
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@pulumi/azure-native": "^2.0.0",
+    "@pulumi/docker-build": "^0.0.6",
+    "@pulumi/pulumi": "^3.113.0",
+    "@pulumi/random": "^4.8.2"
+  },
+  "lint-staged": {
+    "**/*": "prettier --write --ignore-unknown"
+  }
+}

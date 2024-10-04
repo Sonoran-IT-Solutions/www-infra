@@ -1,0 +1,6 @@
+name: website-infra
+runtime:
+  name: nodejs
+  options:
+    packagemanager: npm
+description: Infrastructure for website and related resources

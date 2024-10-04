@@ -1,0 +1,5 @@
+config:
+  azure-native:location: WestUS2
+  azure-native:subscriptionId: 763c0f17-d655-4636-8a03-dd7d49e35afb
+  azure-native:tenantID: cdff7016-a831-4fd9-9393-604a7cf9f799
+  website-infra:version: "11.1"
